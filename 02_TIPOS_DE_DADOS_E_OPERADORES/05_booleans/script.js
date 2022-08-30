@@ -23,8 +23,8 @@ console.log("Betina" == "Ryan" || false); // False
 console.log(!(!(true && true))); // True
 console.log(false || false); // False
 //  && - and (So retorna TRUE se ambos lados forem true)
-//  || - or  (Se retorna TRUE se ambos lados forem false)
-//  ! - not
+//  || - or  (Se retorna FALSE se ambos lados forem false)
+//  ! - not  (Retorna sempre o contrário (True - False / False - True) )
 
 // Operador Ternário
 console.log(5 > 2 ? "É sim" : "É não"); //
